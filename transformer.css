@@ -1,0 +1,245 @@
+body {
+  background-color: rgba(251, 244, 244, 0.29);
+}
+h1
+{
+    color: red;
+    background-color: green;
+    font-size:xx-large;
+    text-align: center;
+    padding: 5px;
+}
+.main {
+  background-color: whitesmoke;
+  border: 5px rgb(7, 7, 7) solid;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.lnames {
+  border: 2px solid gray;
+  padding: 5px;
+  background-color: rgba(128, 128, 128, 0.347);
+  margin: auto;
+  
+}
+.cbox {
+  border: 5px dotted rgba(255, 255, 255, 0);
+  background-color: rgba(86, 154, 213, 0.63);
+  margin: auto;
+  padding: 5px;
+}
+.cbox {
+  height: 110px;
+  width: 100px;
+  margin: auto;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background-color: beige;
+  margin-top: 200px;
+  text-align: justify;
+  font-style: oblique;
+  font-weight: bold;
+  color: purple;
+  border: 5px solid green;
+  padding: 15px;
+}
+.rtext {
+  min-width: 300px;
+  max-width: 60%;
+  flex: 1 1 auto;
+  height: 500px;
+  box-sizing: border-box;
+}
+label {
+  margin: 3px;
+  padding: 5px;
+  display: inline-block;
+  min-width: 280px;
+  max-width: 300px;
+  flex: 1 1 flex;
+  font-size: 15px;
+  background-color: rgb(73, 73, 73);
+  color: aquamarine;
+  border-radius: 2px;
+}
+
+label:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+.lnames:has(#a1:checked)~.rtext .cbox
+{
+    transform: rotate(45deg);
+}
+label:hover {
+    background-color: rgb(50, 50, 50);
+    cursor: pointer;
+}
+
+.lnames:has(#a1:checked)~.rtext .cbox
+ {
+   transform: none;
+
+}
+
+.lnames:has(#a2:checked)~.rtext .cbox
+{
+    transform: rotate(10deg);
+
+}
+
+.lnames:has(#a3:checked)~.rtext .cbox
+{
+    transform: rotate(45deg);
+
+}
+
+.lnames:has(#a4:checked)~.rtext .cbox
+{
+    transform: rotate3d(1, 2, 1, 45deg);
+
+}
+
+.lnames:has(#a5:checked)~.rtext .cbox
+{
+    transform: rotate3d(0, 1, 0, 60deg);
+
+}
+
+.lnames:has(#a6:checked)~.rtext .cbox
+{
+    transform: rotateX(45deg);
+}
+
+.lnames:has(#a7:checked)~.rtext .cbox
+{
+    transform: rotateX(100deg);
+
+}
+
+.lnames:has(#a8:checked)~.rtext .cbox
+{
+    transform: rotateY(45deg);
+
+}
+
+.lnames:has(#a9:checked)~.rtext .cbox
+{
+    transform: rotateY(80deg);
+
+}
+
+.lnames:has(#a10:checked)~.rtext .cbox
+{
+    transform: rotateZ(45deg);
+
+}
+
+.lnames:has(#a11:checked)~.rtext .cbox
+{
+    transform: rotateZ(90deg);
+
+}
+
+.lnames:has(#a12:checked)~.rtext .cbox
+{
+    transform: skew(20deg, 20deg)fo
+
+}
+
+.lnames:has(#a13:checked)~.rtext .cbox
+{
+    transform: skew(30deg, 30deg);
+
+}
+
+.lnames:has(#a14:checked)~.rtext .cbox
+{
+    transform: skewX(30deg);
+
+}
+
+.lnames:has(#a15:checked)~.rtext .cbox
+{
+    transform: skewX(40deg);
+
+}
+
+.lnames:has(#a16:checked)~.rtext .cbox
+{
+    transform: skewY(30deg);
+
+}
+
+.lnames:has(#a17:checked)~.rtext .cbox
+{
+    transform: skewY(40deg);
+
+}
+
+.lnames:has(#a18:checked)~.rtext .cbox
+{
+    transform: translate(20px, 10px);
+
+}
+
+.lnames:has(#a19:checked)~.rtext .cbox
+{
+    transform: translate(20px, 20px);
+
+}
+
+.lnames:has(#a20:checked)~.rtext .cbox
+{
+    transform: scale(2, 2);
+
+}
+
+.lnames:has(#a21:checked)~.rtext .cbox
+{
+    transform: scale(2.5, 3);
+
+}
+
+.lnames:has(#a22:checked)~.rtext .cbox
+{
+    transform: scaleX(1.5);
+
+}
+
+.lnames:has(#a23:checked)~.rtext .cbox
+{
+    transform: scaleX(50%);
+
+}
+
+.lnames:has(#a24:checked)~.rtext .cbox
+{
+    transform: scaleY(1.5);
+
+}
+
+
+.lnames:has(#a25:checked)~.rtext .cbox
+{
+    transform: scaleZ(50%);
+
+}
+.lnames:has(#a26:checked)~.rtext .cbox
+{
+    transform: matrix(0.866,0.7,-0.8,0.866,0,0);
+}
+.lnames:has(#a27:checked)~.rtext .cbox
+{
+    transform: matrix(0.586,0.8,-0.8,0.586,40,30);
+}
+
+
+
+
+
